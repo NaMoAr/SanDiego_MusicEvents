@@ -50,10 +50,10 @@ public class JSONLoader {
 
                 event.setArtist(musicEventJSON.getString("Artist"));
                 event.setDate(musicEventJSON.getString("Date"));
-                event.setDate(musicEventJSON.getString("Time"));
-                event.setDate(musicEventJSON.getString("Venue"));
-                event.setDate(musicEventJSON.getString("City"));
-                event.setDate(musicEventJSON.getString("State"));
+                event.setTime(musicEventJSON.getString("Time"));
+                event.setVenue(musicEventJSON.getString("Venue"));
+                event.setCity(musicEventJSON.getString("City"));
+                event.setState(musicEventJSON.getString("State"));
                 event.setImageName(musicEventJSON.getString("ImageName"));
 
             allMusicEvents.add(event);

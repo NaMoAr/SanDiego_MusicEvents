@@ -2,12 +2,30 @@
 
   "MusicEvents" : [
 {"Artist" : "Justin Timeberlake",
-"Date" : "Feburary 20",
-  "Time" : "Tjursday",
+"Date" : "Feburary 20, Thursday",
+  "Time" : "8:00 PM",
   "Venue" : "Peachanga Arene",
   "City" : "San Diego",
   "State" : "CA",
-  "ImageName" : "JustinTimberlake.png"}
+  "ImageName" : "JustinTimberlake.png"},
+
+    {"Artist" :"Blues Traveler",
+      "Date" : "February 27, Thursday",
+      "Time":"7:00 PM",
+      "Venue":"House of Blues",
+      "City":"San Diego",
+    "State" :  "CA",
+    "ImageName":"BluesTraveler.png"},
+
+    {"Artist" :"BGladys Knight",
+      "Date" : "March 7, Saturday ",
+      "Time":"8:00 PM",
+      "Venue":"Pechanga Resort and Casino",
+      "City":"San Diego",
+      "State" :  "CA",
+      "ImageName":"GladysKnight.png"}
+
+
 
 ]
 }

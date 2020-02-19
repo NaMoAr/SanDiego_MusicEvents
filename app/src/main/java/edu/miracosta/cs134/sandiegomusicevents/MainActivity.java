@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.ListView;
 
@@ -57,16 +58,16 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, EventDetailsActivity.class);
 
 
-        //fill the intent with the details about the clicked event
+
         intent.putExtra("Artist", clickedEvent.getArtist());
         intent.putExtra("Date", clickedEvent.getDate());
-        intent.putExtra("Day", clickedEvent.getDay());
         intent.putExtra("Time", clickedEvent.getTime());
         intent.putExtra("Venue", clickedEvent.getVenue());
         intent.putExtra("City", clickedEvent.getCity());
+        intent.putExtra("ImageName", clickedEvent.getImageName());
+        intent.putExtra("State", clickedEvent.getState());
 
-
-
+        Log.i("SD Music Events", clickedEvent.toString());
 
 
         //go to (startActivity) event details

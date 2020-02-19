@@ -105,7 +105,6 @@ public class MusicEvent {
         return "MusicEvent{" +
                 "Artist='" + mArtist + '\'' +
                 ", Date='" + mDate + '\'' +
-                ", Day='" + mDay + '\'' +
                 ", Time='" + mTime + '\'' +
                 ", Venue='" + mVenue + '\'' +
                 ", City='" + mCity + '\'' +
